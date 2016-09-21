@@ -180,3 +180,6 @@
 [url "git://gist.github.com/"]
 
 	insteadOf = "gist:"
+[user]
+	email = allwinpb@gmail.com
+	name = Allwin Baby Panikulam
