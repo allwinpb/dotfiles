@@ -5,6 +5,11 @@ cd "$(dirname "${BASH_SOURCE}")";
 # git pull origin master; # I'll be pulling in manually anyway so this is redundant
 
 function doIt() {
+	# Install oh-my-zsh if not installed already
+	if [ -d "~/.oh-my-zsh" ]; then
+	  sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+	fi
+	# Install personal overrides to oh-my-zsh
 	rsync --exclude ".git/" \
 		--exclude ".DS_Store" \
 		--exclude ".osx" \
