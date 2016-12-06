@@ -10,9 +10,14 @@ function doIt() {
 	  sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 	fi
 	# Install personal overrides to oh-my-zsh
+	rsync -avh --no-perms ./ohmyzsh_custom ~/.oh-my-zsh/custom
+
+	# Install all the other stuff
 	rsync --exclude ".git/" \
 		--exclude ".DS_Store" \
 		--exclude ".osx" \
+		--exclude ".macos" \
+		--exclude "brew.sh" \
 		--exclude "bootstrap.sh" \
 		--exclude "README.md" \
 		--exclude "LICENSE-MIT.txt" \
