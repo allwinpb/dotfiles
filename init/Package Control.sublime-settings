@@ -1,0 +1,23 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Emmet",
+		"GitGutter",
+		"JSX",
+		"nginx",
+		"Package Control",
+		"SCSS",
+		"SideBarEnhancements",
+		"SidebarSeparator",
+		"Theme - Spacegray"
+	],
+	"repositories":
+	[
+		"https://github.com/titoBouzout/SideBarEnhancements/tree/st3\n https://github.com/titoBouzout/SideBarEnhancements/tree/st3\n https://github.com/titoBouzout/SideBarEnhancements/tree/st3\nhttps://github.com/titoBouzout/SideBarEnhancements/tree/st3",
+		"https://github.com/titoBouzout/SideBarEnhancements/tree/st3"
+	]
+}
